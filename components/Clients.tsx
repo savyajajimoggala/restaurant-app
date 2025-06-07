@@ -3,7 +3,6 @@
 import React, { useEffect } from "react";
 import 'aos/dist/aos.css';
 import Aos from "aos";
-import Image from "next/image";
 import { FaQuoteLeft } from "react-icons/fa";
 import { clients } from "../export";
 

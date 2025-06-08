@@ -30,7 +30,7 @@ const Banner = () => {
       >
         Crafted with fresh ingredients and time-honored recipes, our chefs blend
         tradition with a modern touch to serve you food that feels like home.
-        Whether it&apos;s a family dinner or a quick bite, we promise warmth,
+        Whether its a family dinner or a quick bite, we promise warmth,
         hospitality, and taste in every bite.
       </p>
 

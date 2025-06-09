@@ -37,6 +37,21 @@ const Contact = () => {
 
                         </div>
                     </div>
+
+                        <div id="form-box" className="grid lg:grid-cols-2 grid-cols-1 justify-center items-center gap-4 w-full">
+                        <div className="w-full flex flex-col justify-center items-start gap-2">
+                            <h1 className="text-lg font-semibold text-black">Password</h1>
+                            <input type="password" placeholder="Enter your password" className="bg-white text-black px-6 py-3 w-full rounded-full border-slate-400" />
+
+                        </div>
+
+                        <div className="w-full flex flex-col justify-center items-start gap-2">
+                            <h1 className="text-lg font-semibold text-black">Phone number</h1>
+                            <input type="number" placeholder="Enter your phone number" className="bg-white text-black px-6 py-3 w-full rounded-full border-slate-400" />
+
+                        </div>
+                    </div>
+                
                     <button className="w-full bg-black px-6 py-3 rounded-full text-white font-semibold">SUBMIT</button>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="600" id="address-box" className="w-full grid lg:grid-cols-3 grid-cols-1 justify-end items-start gap-6 mt-10">

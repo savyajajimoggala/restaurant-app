@@ -52,7 +52,7 @@ const Contact = () => {
                         </div>
                     </div>
                 
-                    <button className="w-full bg-black px-6 py-3 rounded-full text-white font-semibold">SUBMIT</button>
+                    <button className="w-1/2 bg-black px-6 py-3 rounded-full text-white font-semibold">SUBMIT</button>
                 </div>
                 <div data-aos="zoom-in" data-aos-delay="600" id="address-box" className="w-full grid lg:grid-cols-3 grid-cols-1 justify-end items-start gap-6 mt-10">
                     <div className="fiex fiex-col justify-center items-start gap-3">

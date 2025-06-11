@@ -22,7 +22,7 @@ const Clients = () => {
             {
          clients.map((item, index) => (
         <div key={index} className="flex flex-col justify-center items-start gap-4 bg-orange-600 p-10 h-[380px] rounded-xl relative"> 
-        <div id="icon-box" className="bg-white p-4 rounded-full text-orange-600 absolute top-2">
+        <div id="icon-box" className="bg-white p-2 rounded-full text-orange-600 absolute top-2">
         <FaQuoteLeft className="size-2" />
         </div>
         <p className="text-white text-lg">{item.about}</p>
